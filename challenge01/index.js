@@ -1,4 +1,4 @@
-const users = require('fs').readFileSync('./users.txt', 'utf8')
+const users = require('fs').readFileSync(`${__dirname}/users.txt`, 'utf8')
 
 const dataRequired = ['usr', 'eme', 'psw', 'age', 'loc', 'fll']
 
